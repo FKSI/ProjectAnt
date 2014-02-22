@@ -45,6 +45,19 @@ l:hover {
 	color: #000;
 }
 
+.socialicon {
+	
+	text-align: center;
+
+}
+
+
+a img{
+	
+	text-align: center;
+	margin-right: 10px;
+	
+}
 
 .container,
 .bb-custom-wrapper,
@@ -70,7 +83,7 @@ l:hover {
 }
 
 .menu-panel {
-	background: #f1103a;
+	background: #194D72;
 	width: 240px;
 	height: 100%;
 	position: fixed;
@@ -104,8 +117,8 @@ l:hover {
 	line-height: 3.5;
 	padding: 0 20px;
 	cursor: pointer;
-	background: #f1103a;
-	border-bottom: 1px solid #dd1338;
+	background: #194D72;
+	/*border-bottom: 1px solid #194D72;*/
 }
 
 .menu-toc li a:hover,
