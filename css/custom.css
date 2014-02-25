@@ -56,8 +56,10 @@ a img{
 	
 	text-align: center;
 	margin-right: 10px;
+	border:none;
 	
 }
+
 
 .container,
 .bb-custom-wrapper,
@@ -301,7 +303,7 @@ a img{
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
 	.menu-panel{
 
 		display: none !important
