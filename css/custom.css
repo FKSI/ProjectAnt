@@ -125,7 +125,7 @@ a img{
 
 .menu-toc li a:hover,
 .menu-toc li.menu-toc-current a{
-	background: #dd1338;
+	background: #DD1338;
 }
 
 .menu-panel div {
@@ -165,7 +165,7 @@ a img{
 	height: 32px;
 	top: 0;
 	left: 0;
-	background: #f1103a;
+	background: #DD1338;
 	border-radius: 50%;
 	color: #fff;
 	line-height: 30px;
@@ -276,9 +276,12 @@ a img{
 	padding: 0 0 10px;
 	color: #333;
 	margin: 0 2% 50px !important;
-	text-align: left;
+	text-align: center;
 	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
 	text-shadow: 0 0 2px #fff;
+	border-style: solid;
+	border-width: 1px;
+
 }
 
 .no-js .content h2 {
