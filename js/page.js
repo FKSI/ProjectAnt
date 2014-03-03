@@ -76,7 +76,7 @@ var Page = (function() {
 							return false;
 						} );
 
-						
+						/*
 						// add swipe events
 						$slides.on( {
 							'swipeleft' : function( event ) {
@@ -86,8 +86,9 @@ var Page = (function() {
 							'swiperight' : function( event ) {
 								config.$bookBlock.bookblock( 'prev' );
 								return false;
-			}
-		} );
+							}
+						} );
+						*/
 
 		// show table of contents
 		$tblcontents.on( 'click', openTOC );

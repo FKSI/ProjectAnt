@@ -47,10 +47,15 @@ l:hover {
 
 .socialicon {
 	
-	text-align: center;
+	text-align: left;
 
 }
 
+.menubar_socialicon {
+	
+	text-align: center;
+
+}
 
 a img{
 	
