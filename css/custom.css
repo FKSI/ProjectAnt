@@ -45,6 +45,19 @@ l:hover {
 	color: #000;
 }
 
+#nametag{
+	border: dotted;
+	border-width: 1px;
+	border-radius: 20px;
+	padding: 1px 4px 1px 4px;
+}
+
+#nametag:hover{
+	color: #FFF;
+	background-color: #194D72;
+}
+}
+
 .socialicon {
 	
 	text-align: left;
@@ -259,7 +272,6 @@ a img{
 	color: #333;
 	margin: 0 2% 0;
 	text-align: left;
-	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
 	text-shadow: 0 0 2px #fff;
 }
 
@@ -270,7 +282,6 @@ a img{
 	color: #333;
 	margin: 0 2% 50px !important;
 	text-align: left;
-	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
 	text-shadow: 0 0 2px #fff;
 }
 
@@ -282,7 +293,6 @@ a img{
 	color: #333;
 	margin: 0 2% 50px !important;
 	text-align: center;
-	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
 	text-shadow: 0 0 2px #fff;
 	border-style: solid;
 	border-width: 1px;
