@@ -56,6 +56,28 @@ l:hover {
 	color: #FFF;
 	background-color: #194D72;
 }
+
+.emailTextArea{
+
+	resize:none;
+	display: block; 
+	margin: 0 auto;
+	border: dotted;
+	border-radius: 20px;
+	border-width: 1px;
+	padding: 1px 4px 1px 4px;
+	text-align: center;
+}
+
+.emailTextArea:hover{
+
+	/*resize:none;
+	display: block; 
+	margin: 0 auto;
+	border: dotted;
+	border-width: 1px;*/
+		color: #FFF;
+	background-color: #194D72;
 }
 
 .socialicon {
