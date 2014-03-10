@@ -100,6 +100,13 @@ a img{
 	
 }
 
+.resume {
+
+	border: 1px solid #E6E6E6;
+	background-color: #E6E6E6;
+	margin-bottom: 60px;
+}
+
 
 .container,
 .bb-custom-wrapper,
@@ -289,7 +296,7 @@ a img{
 
 .content h2 {
 	font-weight: 300;
-	font-size: 4em;
+	font-size: 2.1em;
 	padding: 0 0 10px;
 	color: #333;
 	margin: 0 2% 0;
@@ -310,14 +317,12 @@ a img{
 .content_prob_quest {
 
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.9em;
 	padding: 0 0 10px;
 	color: #333;
 	margin: 0 2% 50px !important;
 	text-align: center;
 	text-shadow: 0 0 2px #fff;
-	border-style: solid;
-	border-width: 1px;
 
 }
 
@@ -329,7 +334,7 @@ a img{
 	font-size: 1.2em;
 	line-height: 1.6;
 	font-weight: 300;
-	padding: 5px 8%;
+	padding: 5px 2%;
 	text-align: justify;
 }
 
