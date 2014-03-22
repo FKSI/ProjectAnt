@@ -86,6 +86,13 @@ l:hover {
 
 }
 
+.signature{
+	
+	display: block;
+	text-align: right;
+  	
+}
+
 .contact_sn_icons{
 	text-align: center;
 	margin-bottom: 10px;
