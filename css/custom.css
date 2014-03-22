@@ -86,9 +86,17 @@ l:hover {
 
 }
 
+.contact_sn_icons{
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
 .menubar_socialicon {
 	
 	text-align: center;
+	
+
 
 }
 
@@ -104,7 +112,7 @@ a img{
 
 	border: 1px solid #E6E6E6;
 	background-color: #E6E6E6;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 
@@ -309,7 +317,7 @@ a img{
 	font-size: 4em;
 	padding: 0 0 10px;
 	color: #333;
-	margin: 0 2% 50px !important;
+	margin: 0 2% 25px !important;
 	text-align: left;
 	text-shadow: 0 0 2px #fff;
 }
@@ -317,8 +325,7 @@ a img{
 .content_prob_quest {
 
 	font-weight: 400;
-	font-size: 1.9em;
-	padding: 0 0 10px;
+	font-size: 1.5em;
 	color: #333;
 	margin: 0 2% 50px !important;
 	text-align: center;
@@ -331,7 +338,7 @@ a img{
 }
 
 .content p {
-	font-size: 1.2em;
+	font-size: 1em;
 	line-height: 1.6;
 	font-weight: 300;
 	padding: 5px 2%;
