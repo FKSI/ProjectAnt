@@ -35,6 +35,16 @@ a:hover {
 	color: #000;
 }
 
+.divider_left{
+    border-left:1px dotted #DD1338;
+    padding-left: 30px;
+}
+
+.divider_right{
+    border-right:1px dotted #DD1338;
+    padding-right: 30px;
+}
+
 l {
 	color: #555;
 	text-decoration: none;

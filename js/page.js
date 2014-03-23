@@ -120,13 +120,15 @@ var Page = (function() {
 			apiJSP = $content.data( 'jsp' );
 		
 		if( action === 'init' && apiJSP === undefined ) {
-			$content.jScrollPane({verticalGutter : 0, hideFocus : true });
+			$content.jScrollPane({verticalGutter : 0, hideFocus : true, autoReinitialise: true});
 		}
 		else if( action === 'reinit' && apiJSP !== undefined ) {
 			apiJSP.reinitialise();
 		}
 		else if( action === 'destroy' && apiJSP !== undefined ) {
-			apiJSP.destroy();
+			//apiJSP.destroy();
+	
+
 		}
 
 	}
