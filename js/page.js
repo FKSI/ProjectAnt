@@ -100,7 +100,7 @@ var Page = (function() {
 			idx = $el.index();
 			
 			$( '#bb-bookblock' ).bookblock( 'jump', idx + 1  );
-
+			
 			return false;
 			
 		} );
@@ -120,13 +120,13 @@ var Page = (function() {
 			apiJSP = $content.data( 'jsp' );
 		
 		if( action === 'init' && apiJSP === undefined ) {
-			$content.jScrollPane({verticalGutter : 0, hideFocus : true, autoReinitialise: true});
+			$content.jScrollPane({verticalGutter : 0, hideFocus : true, maintainPosition : false});
 		}
 		else if( action === 'reinit' && apiJSP !== undefined ) {
 			apiJSP.reinitialise();
 		}
 		else if( action === 'destroy' && apiJSP !== undefined ) {
-			//apiJSP.destroy();
+			apiJSP.destroy();
 	
 
 		}

@@ -36,12 +36,12 @@ a:hover {
 }
 
 .divider_left{
-    border-left:1px dotted #DD1338;
+    border-left:1px dotted #000000;
     padding-left: 30px;
 }
 
 .divider_right{
-    border-right:1px dotted #DD1338;
+    border-right:1px dotted #000000;
     padding-right: 30px;
 }
 

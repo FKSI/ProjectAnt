@@ -28,6 +28,7 @@
 	float: left;
 	height: 100%;
 	overflow: hidden;
+	padding-right: 30px;
 }
 
 .bb-custom-side_col_title {
