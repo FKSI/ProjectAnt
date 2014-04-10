@@ -9,3 +9,10 @@ function pasuser(form) {
             alert("Identifiant et/ou mot de passe invalide")
         }
 }
+
+$(document).keypress(function(e) {
+	if(e.which == 13) {
+    	$(".button").trigger("click");
+	}
+});
+
