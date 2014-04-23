@@ -67,6 +67,11 @@ l:hover {
 	background-color: #194D72;
 }
 
+.underline_tooltip{
+	border-bottom: solid 1px #DD1338;
+	cursor: help;
+}
+
 .emailTextArea{
 
 	resize:none;
