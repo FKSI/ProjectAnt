@@ -22,7 +22,7 @@ var Page = (function() {
 			speed : 800,
 			perspective : 2000,
 			shadowSides	: 0.8,
-			shadowFlip	: 0.4,
+			shadowFlip	: 0,
 			onEndFlip : function(old, page, isLimit) {
 				
 				current = page;
